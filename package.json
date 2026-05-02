@@ -1,0 +1,10 @@
+{
+  "name": "ethera-marketing-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static marketing homepage for Ethera, ready for GitHub and Vercel.",
+  "scripts": {
+    "start": "node server.cjs",
+    "build": "echo Static site - no build required"
+  }
+}
