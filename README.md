@@ -30,5 +30,7 @@ Suggested Vercel settings:
 - Replace `hello@getethera.io` mail links with the live sales inbox if the address changes
 - Add `getethera.io` in Vercel
 - Add production analytics once the domain is live
+- Submit `https://getethera.io/sitemap.xml` in Google Search Console after the first deployment
+- Verify social previews use `https://getethera.io/assets/ethera-logo-cropped.png`
 - Replace demo metrics with real proof points after first campaigns
 - Add Portuguese version for Portugal launch

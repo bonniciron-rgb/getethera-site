@@ -1,16 +1,16 @@
 const steps = [
   {
     kicker: "Step 1",
-    title: "A local campaign starts the conversation.",
+    title: "Marketing and SEO signals reveal the gap.",
     body:
-      "A Lisbon language school runs a Click-to-WhatsApp campaign for free trial classes. Ethera keeps the source tag attached from the first message.",
+      "A Lisbon service business sees WhatsApp demand from ads, QR codes and local search, but conversion varies by source and follow-up speed.",
     visual: `
       <article class="visual-card">
-        <header><span>Instagram campaign</span><span>Lisbon + Setubal</span></header>
+        <header><span>Marketing Analytics</span><span>Signal review</span></header>
         <div class="content">
           <div class="ad-creative">
-            <strong>Book a free English trial class this week.</strong>
-            <span class="pill">Send WhatsApp message</span>
+            <strong>Strong lead volume, weak booked-trial rate from local search.</strong>
+            <span class="pill">Needs a focused play</span>
           </div>
         </div>
       </article>
@@ -18,34 +18,34 @@ const steps = [
   },
   {
     kicker: "Step 2",
-    title: "WhatsApp intake captures the lead cleanly.",
+    title: "Growth Studio creates the next play.",
     body:
-      "The bot asks the right questions, detects language, stores consent, and alerts the sales team while the conversation remains visible in the inbox.",
+      "Growth Studio turns the signal into a Strategy Snapshot, then recommends a weekly play with the owner, channel and success metric.",
     visual: `
       <article class="visual-card">
-        <header><span>WhatsApp inbox</span><span>24h window open</span></header>
+        <header><span>Growth Studio Beta</span><span>Weekly Play</span></header>
         <div class="content">
-          <div class="chat-row">EN: Hi, I saw your trial class offer.</div>
-          <div class="chat-row bot">PT: Perfeito. E para adulto, jovem ou crianca?</div>
-          <div class="chat-row">EN: Adult conversation classes.</div>
-          <div class="chat-row bot">EN: Thanks. Our team will confirm available times.</div>
+          <div class="chat-row">Play: refresh GBP offer post.</div>
+          <div class="chat-row bot">Add QR source tag to the matching campaign.</div>
+          <div class="chat-row">Metric: booked trials from local search.</div>
+          <div class="chat-row bot">Review outcome in 7 days.</div>
         </div>
       </article>
     `,
   },
   {
     kicker: "Step 3",
-    title: "The lead lands in the CRM with attribution.",
+    title: "The campaign runs with attribution intact.",
     body:
-      "Sales can filter by campaign, assign the lead, add notes, and move the opportunity through a clear conversion pipeline.",
+      "The team launches the play across Meta, QR codes, website CTAs and WhatsApp intake, while Ethera keeps campaign source attached.",
     visual: `
       <article class="visual-card">
-        <header><span>Pipeline</span><span>Source: instagram-trial-lisbon</span></header>
+        <header><span>Campaign pipeline</span><span>Source preserved</span></header>
         <div class="content">
           <div class="pipeline-row">
-            <div><strong>New</strong><div class="lead-card">Maria Santos<br />Adult conversation</div></div>
-            <div><strong>Contacted</strong><div class="lead-card">Joao Ferreira<br />Teen programme</div></div>
-            <div><strong>Booked</strong><div class="lead-card">Ana Costa<br />Trial Thursday</div></div>
+            <div><strong>New</strong><div class="lead-card">QR lead<br />GBP offer</div></div>
+            <div><strong>Contacted</strong><div class="lead-card">Meta ad<br />Trial ask</div></div>
+            <div><strong>Booked</strong><div class="lead-card">Website CTA<br />Thursday</div></div>
           </div>
         </div>
       </article>
@@ -53,18 +53,18 @@ const steps = [
   },
   {
     kicker: "Step 4",
-    title: "The team books the trial and keeps the handover tidy.",
+    title: "SEO actions become operational.",
     body:
-      "Bookings, classes, capacity, and teacher assignment sit beside the CRM, so conversion does not depend on scattered spreadsheets.",
+      "GBP reviews, profile health, posts and website actions sit beside the CRM, so local SEO becomes a measured growth workflow.",
     visual: `
       <article class="visual-card">
-        <header><span>Booking</span><span>Trial confirmed</span></header>
+        <header><span>Ethera SEO</span><span>Profile health</span></header>
         <div class="content">
           <div class="metric-grid">
-            <div><span>Class</span><strong>B1 English</strong></div>
-            <div><span>Teacher</span><strong>Sofia</strong></div>
-            <div><span>Capacity</span><strong>7 / 10</strong></div>
-            <div><span>Reminder</span><strong>Sent</strong></div>
+            <div><span>Reviews</span><strong>+6</strong></div>
+            <div><span>Posts</span><strong>3</strong></div>
+            <div><span>Profile</span><strong>82%</strong></div>
+            <div><span>Actions</span><strong>Tracked</strong></div>
           </div>
         </div>
       </article>
@@ -72,18 +72,18 @@ const steps = [
   },
   {
     kicker: "Step 5",
-    title: "Revenue, renewals, and campaign ROI become visible.",
+    title: "The next strategy learns from the outcome.",
     body:
-      "Ethera connects contracts, invoices, renewals, and dashboards so the owner can see which campaigns created real customers.",
+      "Executed, deferred and rejected plays are measured against actual leads, bookings and revenue so the next cycle starts smarter.",
     visual: `
       <article class="visual-card">
-        <header><span>Growth dashboard</span><span>This month</span></header>
+        <header><span>Outcome measurement</span><span>Next cycle</span></header>
         <div class="content">
           <div class="metric-grid">
             <div><span>Leads</span><strong>124</strong></div>
             <div><span>Trials</span><strong>38</strong></div>
             <div><span>Won</span><strong>17</strong></div>
-            <div><span>Revenue</span><strong>EUR 8.6k</strong></div>
+            <div><span>Next play</span><strong>Ready</strong></div>
           </div>
         </div>
       </article>

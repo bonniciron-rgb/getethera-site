@@ -347,8 +347,10 @@ a {
 }
 
 .problem-grid,
+.pillar-grid,
 .module-grid,
 .market-list,
+.roadmap-grid,
 .integration-grid,
 .channel-grid {
   display: grid;
@@ -360,8 +362,10 @@ a {
 }
 
 .problem-grid article,
+.pillar-grid article,
 .module-grid article,
 .market-list article,
+.roadmap-grid article,
 .integration-grid article {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -392,6 +396,57 @@ p {
 
 .solution {
   background: #eef3ff;
+}
+
+.pillar-grid {
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 16px;
+}
+
+.pillar-grid article {
+  min-height: 250px;
+  padding: 26px;
+  background:
+    linear-gradient(180deg, rgba(44, 131, 255, 0.08), rgba(255, 255, 255, 0)),
+    var(--white);
+}
+
+.pillar-grid span,
+.roadmap-grid span {
+  display: inline-flex;
+  margin-bottom: 22px;
+  color: var(--coral);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.pillar-grid h3,
+.roadmap-grid h3 {
+  color: var(--teal-dark);
+}
+
+.loop-panel {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 28px;
+  align-items: start;
+  margin-bottom: 22px;
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid rgba(38, 55, 216, 0.14);
+  border-radius: 10px;
+  background: #08122d;
+  color: white;
+}
+
+.loop-panel h3 {
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 1.06;
+}
+
+.loop-panel p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.74);
 }
 
 .channel-panel {
@@ -666,6 +721,19 @@ p {
   background: linear-gradient(135deg, var(--teal), var(--coral));
 }
 
+.roadmap {
+  background: #ffffff;
+}
+
+.roadmap-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.roadmap-grid article {
+  min-height: 230px;
+  padding: 24px;
+}
+
 .integrations {
   background: #ffffff;
 }
@@ -881,6 +949,28 @@ p {
   font-size: 13px;
 }
 
+.faq {
+  background: #f8faff;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.faq-grid article {
+  min-height: 210px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+.faq-grid h3 {
+  color: var(--teal-dark);
+}
+
 @media (max-width: 960px) {
   .desktop-nav {
     display: none;
@@ -910,10 +1000,13 @@ p {
   }
 
   .problem-grid,
+  .pillar-grid,
   .module-grid,
   .market-list,
+  .roadmap-grid,
   .integration-grid,
   .channel-grid,
+  .faq-grid,
   .demo-stage {
     grid-template-columns: 1fr;
   }
@@ -923,6 +1016,10 @@ p {
   }
 
   .proof-card {
+    grid-template-columns: 1fr;
+  }
+
+  .loop-panel {
     grid-template-columns: 1fr;
   }
 
