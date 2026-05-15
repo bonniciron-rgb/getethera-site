@@ -515,6 +515,19 @@ p {
   color: var(--teal-dark);
 }
 
+.beta-badge {
+  display: inline-flex;
+  transform: translateY(-3px);
+  margin-left: 6px;
+  padding: 4px 7px;
+  border-radius: 999px;
+  background: rgba(200, 78, 244, 0.12);
+  color: var(--coral);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .demo-section {
   background: var(--ink);
   color: white;

@@ -6,7 +6,7 @@ const steps = [
       "A Lisbon service business sees WhatsApp demand from ads, QR codes and local search, but conversion varies by source and follow-up speed.",
     visual: `
       <article class="visual-card">
-        <header><span>Marketing Analytics</span><span>Signal review</span></header>
+        <header><span>Lead Gen + Marketing Studio</span><span>Signal review</span></header>
         <div class="content">
           <div class="ad-creative">
             <strong>Strong lead volume, weak booked-trial rate from local search.</strong>
@@ -18,12 +18,12 @@ const steps = [
   },
   {
     kicker: "Step 2",
-    title: "Growth Studio creates the next play.",
+    title: "Strategy Studio creates the next play.",
     body:
-      "Growth Studio turns the signal into a Strategy Snapshot, then recommends a weekly play with the owner, channel and success metric.",
+      "Strategy Studio turns the signal into a Strategy Snapshot, then recommends a weekly play with the owner, channel and success metric.",
     visual: `
       <article class="visual-card">
-        <header><span>Growth Studio Beta</span><span>Weekly Play</span></header>
+        <header><span>Strategy Studio</span><span>Beta Weekly Play</span></header>
         <div class="content">
           <div class="chat-row">Play: refresh GBP offer post.</div>
           <div class="chat-row bot">Add QR source tag to the matching campaign.</div>
@@ -55,10 +55,10 @@ const steps = [
     kicker: "Step 4",
     title: "SEO actions become operational.",
     body:
-      "GBP reviews, profile health, posts and website actions sit beside the CRM, so local SEO becomes a measured growth workflow.",
+      "GBP reviews, profile health, posts and website actions sit beside the CRM, so SEO Studio becomes a measured growth workflow.",
     visual: `
       <article class="visual-card">
-        <header><span>Ethera SEO</span><span>Profile health</span></header>
+        <header><span>SEO Studio</span><span>Profile health</span></header>
         <div class="content">
           <div class="metric-grid">
             <div><span>Reviews</span><strong>+6</strong></div>
