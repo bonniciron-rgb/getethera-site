@@ -7,6 +7,7 @@
   --mint: #dfe8ff;
   --teal: #2c83ff;
   --teal-dark: #2637d8;
+  --violet: #704df4;
   --coral: #c84ef4;
   --gold: #4f6cff;
   --navy: #121c3d;
@@ -137,11 +138,84 @@ a {
 
 .hero-product {
   position: absolute;
-  right: clamp(20px, 8vw, 120px);
+  right: clamp(20px, 2vw, 56px);
   top: 150px;
-  width: min(42vw, 560px);
-  min-width: 430px;
-  min-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 16px;
+  width: min(52vw, 980px);
+}
+
+.hero-studio-card {
+  min-height: 330px;
+  padding: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(24px);
+}
+
+.hero-studio-card span {
+  display: inline-flex;
+  margin-bottom: 22px;
+  color: var(--coral);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.hero-studio-card em {
+  margin-left: 4px;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.hero-studio-card h3 {
+  color: white;
+  font-size: clamp(22px, 1.8vw, 28px);
+  line-height: 1.08;
+}
+
+.hero-studio-card p {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.hero-card-tags {
+  display: grid;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.hero-card-tags small {
+  display: inline-flex;
+  width: fit-content;
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.hero-loop {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.hero-loop span {
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.82);
+  font-weight: 900;
+  text-align: center;
 }
 
 .phone,
@@ -375,6 +449,92 @@ a {
 .problem-grid article {
   min-height: 250px;
   padding: 26px;
+}
+
+.goals {
+  background:
+    radial-gradient(circle at 94% 20%, rgba(200, 78, 244, 0.14), transparent 24%),
+    #f4f7ff;
+}
+
+.goals-layout {
+  display: grid;
+  grid-template-columns: 0.86fr 1.14fr;
+  gap: clamp(28px, 5vw, 58px);
+  align-items: center;
+}
+
+.goals-copy {
+  max-width: 720px;
+}
+
+.goals-copy h2 {
+  font-size: clamp(38px, 5vw, 72px);
+  line-height: 0.98;
+}
+
+.goals-copy p {
+  margin-top: 22px;
+  font-size: clamp(18px, 2vw, 22px);
+}
+
+.mission-note {
+  margin-top: 30px;
+  padding: 22px 24px;
+  border-left: 4px solid var(--coral);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.74);
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.journey-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.journey-card {
+  display: grid;
+  grid-template-columns: 78px 1fr auto;
+  gap: 16px;
+  align-items: center;
+  min-height: 114px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 18px 45px rgba(36, 54, 118, 0.08);
+}
+
+.journey-icon {
+  display: grid;
+  width: 78px;
+  height: 78px;
+  place-items: center;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(44, 131, 255, 0.12), rgba(200, 78, 244, 0.16));
+  color: var(--violet);
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.journey-card h3 {
+  font-size: 26px;
+}
+
+.journey-card p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.journey-card strong {
+  display: inline-flex;
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: #eef3ff;
+  color: var(--violet);
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 .icon {
@@ -990,26 +1150,44 @@ p {
   }
 
   .hero {
+    display: flex;
+    flex-direction: column;
     min-height: auto;
     padding-top: 128px;
+  }
+
+  .hero-bg {
+    position: relative;
+    inset: auto;
+    order: 2;
+  }
+
+  .hero-bg::before,
+  .map-grid {
+    display: none;
+  }
+
+  .hero-content {
+    order: 1;
   }
 
   .hero-product {
     position: relative;
     right: auto;
     top: auto;
+    grid-template-columns: 1fr;
     width: 100%;
     min-width: 0;
-    min-height: 430px;
+    min-height: 0;
     margin-top: 44px;
   }
 
-  .phone {
-    width: 230px;
+  .hero-studio-card {
+    min-height: 0;
   }
 
-  .mini-dashboard {
-    width: min(100%, 330px);
+  .hero-strip {
+    order: 3;
   }
 
   .problem-grid,
@@ -1034,6 +1212,15 @@ p {
 
   .loop-panel {
     grid-template-columns: 1fr;
+  }
+
+  .goals-layout,
+  .journey-card {
+    grid-template-columns: 1fr;
+  }
+
+  .journey-card strong {
+    width: fit-content;
   }
 
   .demo-request-grid,
@@ -1073,8 +1260,8 @@ p {
     margin-top: 30px;
   }
 
-  .hero-product {
-    display: none;
+  .hero-loop {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .section {
