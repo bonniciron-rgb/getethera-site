@@ -434,6 +434,7 @@ a {
 }
 
 .section {
+  scroll-margin-top: 92px;
   padding: 92px clamp(20px, 6vw, 84px);
 }
 
@@ -880,6 +881,18 @@ p {
   background:
     linear-gradient(180deg, rgba(44, 131, 255, 0.08), rgba(255, 255, 255, 0)),
     var(--white);
+}
+
+.studio-link {
+  display: inline-flex;
+  margin-top: 18px;
+  color: var(--teal-dark);
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.studio-link::after {
+  content: " ->";
 }
 
 .pillar-grid span,
@@ -1455,6 +1468,172 @@ p {
   color: var(--teal-dark);
 }
 
+.studio-hero {
+  padding: 150px clamp(20px, 6vw, 84px) 76px;
+  background:
+    radial-gradient(circle at 86% 20%, rgba(200, 78, 244, 0.22), transparent 24%),
+    radial-gradient(circle at 18% 80%, rgba(44, 131, 255, 0.2), transparent 26%),
+    #08122d;
+  color: white;
+}
+
+.studio-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
+  gap: clamp(30px, 6vw, 76px);
+  align-items: center;
+}
+
+.studio-hero h1 {
+  max-width: 760px;
+  margin: 0;
+  font-size: clamp(44px, 6vw, 82px);
+  line-height: 0.96;
+}
+
+.studio-hero p {
+  max-width: 660px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: clamp(18px, 2vw, 22px);
+}
+
+.studio-visual {
+  min-height: 420px;
+  padding: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: var(--shadow);
+}
+
+.studio-dashboard {
+  display: grid;
+  gap: 14px;
+}
+
+.studio-dashboard header,
+.studio-dashboard-card,
+.studio-flow-card {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+}
+
+.studio-dashboard header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  font-weight: 900;
+}
+
+.studio-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.studio-dashboard-card,
+.studio-flow-card {
+  padding: 16px;
+}
+
+.studio-dashboard-card span,
+.studio-flow-card span {
+  display: block;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.studio-dashboard-card strong,
+.studio-flow-card strong {
+  display: block;
+  margin-top: 8px;
+  color: white;
+  font-size: 28px;
+}
+
+.studio-bars {
+  display: flex;
+  height: 150px;
+  align-items: end;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.studio-bars i {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background: linear-gradient(180deg, var(--coral), var(--teal));
+}
+
+.studio-page .section-intro {
+  max-width: 900px;
+}
+
+.studio-outcome-grid,
+.studio-feature-grid,
+.studio-workflow {
+  display: grid;
+  gap: 16px;
+}
+
+.studio-outcome-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.studio-feature-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.studio-workflow {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.studio-outcome-grid article,
+.studio-feature-grid article,
+.studio-workflow article {
+  min-height: 190px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+.studio-outcome-grid span,
+.studio-workflow span {
+  display: inline-flex;
+  margin-bottom: 18px;
+  color: var(--coral);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.studio-feature-grid h3,
+.studio-workflow h3,
+.studio-outcome-grid h3 {
+  color: var(--teal-dark);
+}
+
+.studio-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  background: #08122d;
+  color: white;
+}
+
+.studio-cta p {
+  max-width: 740px;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.studio-cta .button.secondary {
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
 @media (max-width: 960px) {
   .desktop-nav {
     display: none;
@@ -1525,7 +1704,9 @@ p {
     grid-template-columns: 1fr;
   }
 
-  .loop-panel {
+  .loop-panel,
+  .studio-hero-grid,
+  .studio-cta {
     grid-template-columns: 1fr;
   }
 
@@ -1551,7 +1732,10 @@ p {
   }
 
   .demo-request-grid,
-  .lead-form {
+  .lead-form,
+  .studio-outcome-grid,
+  .studio-feature-grid,
+  .studio-workflow {
     grid-template-columns: 1fr;
   }
 
