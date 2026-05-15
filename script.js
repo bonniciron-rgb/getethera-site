@@ -3,7 +3,7 @@ const steps = [
     kicker: "Step 1",
     title: "Marketing and SEO signals reveal the gap.",
     body:
-      "A Lisbon service business sees WhatsApp demand from ads, QR codes and local search, but conversion varies by source and follow-up speed.",
+      "A Lisbon service business sees demand from ads, QR codes and search, but conversion varies by source and follow-up speed.",
     visual: `
       <article class="visual-card">
         <header><span>Lead Gen + Marketing Studio</span><span>Signal review</span></header>
@@ -53,18 +53,18 @@ const steps = [
   },
   {
     kicker: "Step 4",
-    title: "SEO actions become operational.",
+    title: "CRM Studio keeps conversion operational.",
     body:
-      "GBP reviews, profile health, posts and website actions sit beside the CRM, so SEO Studio becomes a measured growth workflow.",
+      "WhatsApp intake, pipeline, bookings and customer operations sit beside the marketing source, so every campaign can be measured through conversion.",
     visual: `
       <article class="visual-card">
-        <header><span>SEO Studio</span><span>Profile health</span></header>
+        <header><span>CRM Studio</span><span>Conversion flow</span></header>
         <div class="content">
           <div class="metric-grid">
-            <div><span>Reviews</span><strong>+6</strong></div>
-            <div><span>Posts</span><strong>3</strong></div>
-            <div><span>Profile</span><strong>82%</strong></div>
-            <div><span>Actions</span><strong>Tracked</strong></div>
+            <div><span>Inbox</span><strong>Live</strong></div>
+            <div><span>Pipeline</span><strong>38</strong></div>
+            <div><span>Bookings</span><strong>17</strong></div>
+            <div><span>Renewals</span><strong>Tracked</strong></div>
           </div>
         </div>
       </article>

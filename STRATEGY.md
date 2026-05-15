@@ -15,12 +15,13 @@ Turn every customer signal into the next measurable growth action.
 1. **Lead Gen + Marketing Studio**
    - Physical guerilla marketing, QR campaigns, promoters, flyers and posters
    - Social campaigns and Click-to-WhatsApp demand capture
-   - WhatsApp CRM, bot intake, pipeline, source attribution and marketing analytics
+   - SEO optimization, Google Business Profile, reviews, posts and website/search actions
+   - Source attribution and marketing analytics
 
-2. **SEO Studio**
-   - Google Business Profile foundations
-   - Reviews, posts, profile health and website/search actions
-   - Search visibility tied back to enquiries and booked outcomes
+2. **CRM Studio**
+   - WhatsApp CRM and inbox
+   - Bot intake, partial leads, handoff requests and pipeline
+   - Customer conversion, bookings, payers, contracts, invoices, payments and renewals
 
 3. **Strategy Studio** `[Beta]`
    - Strategy snapshots
@@ -32,7 +33,10 @@ Turn every customer signal into the next measurable growth action.
 
 The three studios should take central stage. The hero visual should show the studio system and learning loop, not only a WhatsApp phone and dashboard.
 
+SEO optimization belongs inside Lead Gen + Marketing Studio, not as its own pillar.
+
+CRM is the second pillar because it owns the conversion and customer operations layer after demand is created.
+
 Preferred hero message:
 
 > Generate demand, improve visibility, and know what to do next.
-
