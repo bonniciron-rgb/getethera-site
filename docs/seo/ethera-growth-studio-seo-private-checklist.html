@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Ethera Growth Studio SEO Private Checklist</title>
+    <style>
+      :root {
+        --ink: #09142f;
+        --muted: #65708a;
+        --line: #dbe4f0;
+        --surface: #ffffff;
+        --soft: #f4f7ff;
+        --blue: #2c83ff;
+        --violet: #704df4;
+        --magenta: #c84ef4;
+        --green: #0f9f6e;
+        --amber: #b7791f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--soft);
+        color: var(--ink);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+
+      header {
+        background: var(--surface);
+        border-bottom: 4px solid transparent;
+        border-image: linear-gradient(90deg, var(--blue), var(--violet), var(--magenta)) 1;
+        padding: 40px 24px;
+      }
+
+      main {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 32px 24px 72px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: var(--ink);
+        line-height: 1.15;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(32px, 5vw, 56px);
+      }
+
+      h2 {
+        margin: 42px 0 18px;
+        font-size: clamp(24px, 3vw, 34px);
+      }
+
+      h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+
+      p {
+        margin: 0 0 16px;
+      }
+
+      a {
+        color: var(--violet);
+        font-weight: 700;
+      }
+
+      code {
+        background: #f1f5f9;
+        border-radius: 7px;
+        color: #243047;
+        font-size: 0.92em;
+        padding: 2px 6px;
+      }
+
+      .eyebrow,
+      .status {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        font-weight: 800;
+      }
+
+      .eyebrow {
+        background: #eee8ff;
+        color: var(--violet);
+        padding: 8px 14px;
+        margin-bottom: 18px;
+      }
+
+      .lead {
+        max-width: 840px;
+        color: var(--muted);
+        font-size: 19px;
+      }
+
+      .grid {
+        display: grid;
+        gap: 16px;
+      }
+
+      .grid.two {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .grid.three {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 22px;
+        box-shadow: 0 14px 36px rgba(9, 20, 47, 0.06);
+      }
+
+      .status {
+        font-size: 13px;
+        padding: 5px 10px;
+        margin-bottom: 12px;
+      }
+
+      .status.done {
+        background: #e7f8f1;
+        color: var(--green);
+      }
+
+      .status.waiting {
+        background: #fff7e6;
+        color: var(--amber);
+      }
+
+      .status.todo {
+        background: #eee8ff;
+        color: var(--violet);
+      }
+
+      ul,
+      ol {
+        margin: 12px 0 0;
+        padding-left: 22px;
+      }
+
+      li {
+        margin: 8px 0;
+      }
+
+      .checklist {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .checklist li {
+        border-top: 1px solid var(--line);
+        padding: 12px 0 12px 34px;
+        position: relative;
+      }
+
+      .checklist li::before {
+        content: "";
+        width: 18px;
+        height: 18px;
+        border: 2px solid var(--violet);
+        border-radius: 5px;
+        left: 0;
+        position: absolute;
+        top: 15px;
+      }
+
+      .checklist li.done::before {
+        background: linear-gradient(135deg, var(--blue), var(--magenta));
+      }
+
+      .checklist li.done::after {
+        content: "";
+        width: 8px;
+        height: 4px;
+        border-bottom: 2px solid white;
+        border-left: 2px solid white;
+        left: 6px;
+        position: absolute;
+        top: 21px;
+        transform: rotate(-45deg);
+      }
+
+      .note {
+        background: #f8fbff;
+        border-left: 4px solid var(--violet);
+        border-radius: 12px;
+        padding: 18px;
+      }
+
+      footer {
+        color: var(--muted);
+        font-size: 14px;
+        margin-top: 42px;
+      }
+
+      @media (max-width: 820px) {
+        .grid.two,
+        .grid.three {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="eyebrow">Private SEO operations checklist</span>
+      <h1>Ethera Growth Studio SEO + Product Visibility Checklist</h1>
+      <p class="lead">
+        A working internal reference for the indexation, product SEO, structured
+        data, conversion tracking, content and authority actions needed to grow
+        getethera.io around the Ethera Growth Studio positioning.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Current Snapshot</h2>
+        <div class="grid three">
+          <article class="card">
+            <span class="status done">Done</span>
+            <h3>Product positioning clarified</h3>
+            <p>
+              Ethera Growth Studio is the umbrella solution. The three studios
+              are Lead Gen + Marketing Studio, CRM Studio and Strategy Studio
+              Beta.
+            </p>
+          </article>
+          <article class="card">
+            <span class="status done">Done</span>
+            <h3>Studio pages created</h3>
+            <p>
+              Dedicated English and Portuguese pages exist for each studio, so
+              deeper product detail is no longer forced onto the homepage.
+            </p>
+          </article>
+          <article class="card">
+            <span class="status waiting">Waiting</span>
+            <h3>Search Console validation</h3>
+            <p>
+              Add or verify <code>getethera.io</code> in Google Search Console,
+              submit the sitemap and monitor indexing for the homepage and the
+              three studio pages.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Key Links</h2>
+        <div class="grid two">
+          <article class="card">
+            <h3>Production Site</h3>
+            <p><a href="https://getethera.io/">https://getethera.io/</a></p>
+            <p>Canonical non-www domain for Ethera Growth Studio.</p>
+          </article>
+          <article class="card">
+            <h3>Sitemap</h3>
+            <p><a href="https://getethera.io/sitemap.xml">https://getethera.io/sitemap.xml</a></p>
+            <p>Submit this in Google Search Console and Bing Webmaster Tools.</p>
+          </article>
+          <article class="card">
+            <h3>GitHub Repository</h3>
+            <p><a href="https://github.com/bonniciron-rgb/getethera-site">bonniciron-rgb/getethera-site</a></p>
+            <p>Production website repository connected to Vercel.</p>
+          </article>
+          <article class="card">
+            <h3>Demo Email</h3>
+            <p><code>hello@getethera.io</code></p>
+            <p>Primary lead capture route until a proper form backend or CRM intake is connected.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Website SEO Work Completed</h2>
+        <ul class="checklist">
+          <li class="done">Homepage positioned around Ethera Growth Studio rather than generic Ethera CRM.</li>
+          <li class="done">Three pillar pages created for Lead Gen + Marketing Studio, CRM Studio and Strategy Studio.</li>
+          <li class="done">Portuguese versions created for homepage and each studio page.</li>
+          <li class="done">Canonical URLs added for homepage, PT homepage and studio pages.</li>
+          <li class="done">Hreflang alternates added for homepage and studio pages.</li>
+          <li class="done">Sitemap includes EN/PT homepage and EN/PT studio pages.</li>
+          <li class="done">Robots allows crawling and points to the sitemap.</li>
+          <li class="done">Homepage includes Organization, WebSite, WebPage, SoftwareApplication and FAQ schema.</li>
+          <li class="done">Brand logo is used for favicon and social preview assets.</li>
+          <li class="done">Internal navigation links to the three studio pages.</li>
+          <li class="done">CRM messaging now includes payments, automatic invoicing through integrations, dunning and renewals.</li>
+          <li class="todo">Add structured data to each studio page, not only the homepages.</li>
+          <li class="todo">Add Open Graph/Twitter metadata to each studio page.</li>
+          <li class="todo">Add visible footer links to all studio pages and key language alternates.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Google Search Console Checklist</h2>
+        <ol>
+          <li>Confirm the correct property is being used: <code>getethera.io</code>.</li>
+          <li>Submit the sitemap: <code>https://getethera.io/sitemap.xml</code>.</li>
+          <li>Inspect the homepage and request indexing if Google has not crawled it.</li>
+          <li>Inspect the three English studio pages and three Portuguese studio pages.</li>
+          <li>Confirm Google-selected canonicals match the submitted canonical URLs.</li>
+          <li>Check whether hreflang is accepted for EN and PT versions.</li>
+          <li>Monitor impressions for branded queries: <code>Ethera</code>, <code>Ethera Growth Studio</code>, <code>getethera</code>.</li>
+          <li>Monitor non-branded impressions for CRM, WhatsApp CRM, lead attribution and marketing analytics queries.</li>
+          <li>If pages remain discovered but not indexed after 48-72 hours, strengthen internal links and resubmit priority URLs.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Priority URLs To Monitor</h2>
+        <div class="card">
+          <ul>
+            <li><code>https://getethera.io/</code></li>
+            <li><code>https://getethera.io/lead-gen-marketing-studio/</code></li>
+            <li><code>https://getethera.io/crm-studio/</code></li>
+            <li><code>https://getethera.io/strategy-studio/</code></li>
+            <li><code>https://getethera.io/pt/</code></li>
+            <li><code>https://getethera.io/pt/lead-gen-marketing-studio/</code></li>
+            <li><code>https://getethera.io/pt/crm-studio/</code></li>
+            <li><code>https://getethera.io/pt/strategy-studio/</code></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Product SEO Keyword Map</h2>
+        <div class="grid three">
+          <article class="card">
+            <span class="status todo">Primary</span>
+            <h3>Ethera Growth Studio</h3>
+            <ul>
+              <li>growth studio for service businesses</li>
+              <li>service business growth platform</li>
+              <li>growth operating system for service businesses</li>
+              <li>WhatsApp-first growth platform</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="status todo">Studio 1</span>
+            <h3>Lead Gen + Marketing Studio</h3>
+            <ul>
+              <li>lead generation analytics for service businesses</li>
+              <li>QR campaign tracking</li>
+              <li>Click-to-WhatsApp campaign attribution</li>
+              <li>Google Business Profile marketing analytics</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="status todo">Studio 2</span>
+            <h3>CRM Studio</h3>
+            <ul>
+              <li>WhatsApp CRM for service businesses</li>
+              <li>CRM with bookings and payments</li>
+              <li>automated invoicing CRM integrations</li>
+              <li>CRM dunning and renewals</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="status todo">Studio 3</span>
+            <h3>Strategy Studio</h3>
+            <ul>
+              <li>marketing strategy automation</li>
+              <li>weekly growth plays</li>
+              <li>strategy snapshots for service businesses</li>
+              <li>growth recommendations from CRM data</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="status todo">Verticals</span>
+            <h3>Service Business Use Cases</h3>
+            <ul>
+              <li>language school CRM and marketing</li>
+              <li>clinic WhatsApp CRM</li>
+              <li>beauty salon lead tracking</li>
+              <li>fitness studio bookings and payments CRM</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="status todo">Portuguese</span>
+            <h3>PT Keyword Themes</h3>
+            <ul>
+              <li>CRM WhatsApp para negócios de serviços</li>
+              <li>plataforma de crescimento para serviços</li>
+              <li>faturação automática CRM</li>
+              <li>gestão de leads WhatsApp</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Structured Data Plan</h2>
+        <ul class="checklist">
+          <li class="done">Homepage has Organization, WebSite, WebPage, SoftwareApplication and FAQ schema.</li>
+          <li class="todo">Add SoftwareApplication or Service schema to each studio page.</li>
+          <li class="todo">Add BreadcrumbList schema to studio pages.</li>
+          <li class="todo">Add FAQ schema to studio pages if each page gets 3-5 specific FAQs.</li>
+          <li class="todo">Add sameAs links once LinkedIn, GitHub, product profiles or company pages are confirmed.</li>
+          <li class="todo">Add Product/Offer details only when pricing or package language is approved.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Conversion Tracking Checklist</h2>
+        <ul class="checklist">
+          <li>Confirm GA4 or GTM tag is firing on <code>getethera.io</code>.</li>
+          <li>Track <code>book_demo_click</code> for hero, nav and footer CTAs.</li>
+          <li>Track <code>studio_page_view</code> by studio type.</li>
+          <li>Track <code>language_switch_click</code> for EN/PT switches.</li>
+          <li>Track <code>mailto_demo_request</code> until a proper backend form exists.</li>
+          <li>Mark demo request and high-intent CTA events as GA4 key events.</li>
+          <li>Connect future CRM intake so demo requests can be attributed to page, language and source.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>30-Day SEO Push</h2>
+        <ol>
+          <li>Week 1: verify GSC, submit sitemap, inspect homepage and studio pages.</li>
+          <li>Week 1: add OG/Twitter metadata and structured data to all studio pages.</li>
+          <li>Week 1: add footer navigation for Home, Studios, Demo, EN/PT and OnPoint Consultancy credit.</li>
+          <li>Week 2: publish one use-case page for language schools using Step Up as the proof story.</li>
+          <li>Week 2: publish one comparison or problem page: WhatsApp CRM vs spreadsheet/manual follow-up.</li>
+          <li>Week 3: publish one article on QR campaign tracking and Click-to-WhatsApp attribution.</li>
+          <li>Week 3: publish one article on automated invoicing, payments, dunning and renewals in service CRMs.</li>
+          <li>Week 4: review GSC impressions, indexed pages, top queries and pages with low CTR.</li>
+          <li>Week 4: update page titles/descriptions based on early query data.</li>
+          <li>Week 4: decide the next landing pages by evidence: vertical pages, integration pages or problem pages.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Recommended Next Landing Pages</h2>
+        <div class="grid two">
+          <article class="card">
+            <h3>Use Case: Language Schools</h3>
+            <p>
+              Position Ethera for language schools that need lead capture,
+              trial booking, enrolment, billing, renewal and campaign
+              attribution.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Use Case: Clinics and Wellness</h3>
+            <p>
+              Focus on WhatsApp intake, appointment booking, patient/customer
+              follow-up, payments and repeat visits.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Integration: Google Business Profile</h3>
+            <p>
+              Explain how SEO signals, profile actions, reviews and posts feed
+              the Lead Gen + Marketing Studio.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Integration: Payments and Invoicing</h3>
+            <p>
+              Explain automated invoicing, payment links, subscriptions, dunning
+              and renewal workflows inside CRM Studio.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Do Not Reintroduce</h2>
+        <ul>
+          <li>Do not describe the full product as Ethera CRM; CRM is only one studio.</li>
+          <li>Do not make SEO Optimization a standalone pillar; it belongs in Lead Gen + Marketing Studio.</li>
+          <li>Do not show internal deployment/GitHub/Vercel readiness copy on the public homepage.</li>
+          <li>Do not let Strategy Studio Beta sound like a finished predictive AI product before roadmap data exists.</li>
+          <li>Do not overfill the homepage with every feature; detailed content belongs on studio or use-case pages.</li>
+          <li>Do not make unsupported claims about integrations until confirmed by the product roadmap.</li>
+        </ul>
+      </section>
+
+      <footer>
+        Last updated: 2026-05-16. Keep this file private/internal. It is stored
+        in <code>docs/seo/ethera-growth-studio-seo-private-checklist.html</code>.
+      </footer>
+    </main>
+  </body>
+</html>
